@@ -1,0 +1,16 @@
+Bonjour,
+
+Ce répertoire regroupe la version 3 du compteur. 
+Le code présent effectue exactement la meme chose que le code en version 2. Il includ maitenant une version finale de son fonctionnement 
+avec la librairie GTK!
+
+Il garde les options de base:
+  - Sauvegarde automatique toutes les minutes
+  - Création et  sauvegarde d'un graphique
+  - Interface graphique grace a opencv
+  - Traitement video
+  - Comptage
+  
+Il suffit de compiler le fichier "camera.c" sous linux avec la librairie openCV pour essayer le programme
+    g++ -Wall -o executable camera.c `pkg-config --cflags --libs opencv gtk+-2.0`
+    
